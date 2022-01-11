@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+*{margin: 0;
+padding:  0;}
+
+body{
+    color:white;
+    font-family: sans-serif;
+}
+
+.header{
+    position: absolute;
+    z-index: 100;
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1700px;
+    margin-top: 28px;
+    margin-left: 27px;
+
+}
+.header a{
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    background-color: #e50914;
+align-self: flex-start;
+padding: 8px 18px;
+text-decoration: none;
+border-radius: 3px;
+}
+main{
+    height: 625px;
+background: url("netflix/img/bg.jpg") center;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+text-align: center;
+}
+.child{
+    z-index: 10;
+}
+
+main h1{
+    font-size: 50px;
+    max-width: 710px;
+    text-align: center;
+}
+main h2{
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+.femail{
+    display: grid;
+    grid-template-columns: 500px 200px;
+    margin-top:20px;
+    margin-bottom: 10px;
+    
+}
+.femail input{
+    font-family: sans-serif;
+    padding: 20px 02px;
+    margin: 0;
+    outline: none;
+    border:none;
+
+}
+button{
+    color: white;
+    background: #e50914;;
+    outline: none;
+    border:none;
+    font-size: 25px;
+}
+main p{
+    font-size: 19px;
+}
+
+.gradient{
+    background: rgba(0, 0, 0, 0.6);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
