@@ -73,7 +73,7 @@ img{
    
     width:250px;
     height:165px;
-    right:30%;
+    right:20%;
     margin-top: 10px;
 }
 
@@ -84,6 +84,10 @@ img{
 .cel h2{
     width: 300px;
 }
+
+.cel , .des h2{
+    width: auto;   
+   }
 
 h2{
     font-size: 30px;
