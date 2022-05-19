@@ -1,4 +1,4 @@
-@media screen and (max-width:1000px){
+@media screen and (max-width:661px){
 
 * { margin: auto;
    text-align: center;
@@ -56,8 +56,7 @@ button{
     display: flex;
     flex-direction: column;
  margin: auto;
- margin-left: 0%;
- padding: 0;
+ padding-left: 0;
     
 }
 
@@ -68,15 +67,20 @@ img{
 .tv video{
     width:340px;
     height:320px;
-
+    margin-left: 12px;
 }
 
+
+
 .teletv video{
-   
+    margin: 10px;
     width:250px;
     height:165px;
-    right:20%;
-    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.teletv img {
+   margin-top: -190px;
 }
 
 .tv p , .cel p , .teletv p , .des p{
